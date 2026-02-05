@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-navi',
-  imports: [],
-  templateUrl: './navi.html',
+  imports:[RouterLink],
+  templateUrl: '/.navi.html',
   styleUrl: './navi.css',
 })
 export class Navi {

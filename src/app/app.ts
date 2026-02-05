@@ -7,7 +7,7 @@ import { Login } from './comps/login/login';
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
-  imports:[Navi,Login],
+  imports:[Navi,Login,RouterOutlet],
 })
 export class App {
  title ='my-app';
